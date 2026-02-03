@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: rgb(11, 43, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 50%;
+    margin: auto 0;
+    text-align: center;
+    background-color: rgb(238, 196, 118);
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px rgb(245, 244, 244);
+    position: relative;
+}
+.main-content > * {
+    margin: 30px;
+}
+.title {
+    color: rgb(41, 41, 143);
+    margin-bottom: 20px;
+}
+.advice {
+    font-size: 20px;
+}
+span {
+    padding-left: 10px;
+    color: white;
+}
+.generate-advice {
+    height: 45px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(41, 41, 143);
+    color: white;
+}
+.loading-screen{
+    position: absolute;
+    top: 35%;
+    z-index: 1;
+    font-size: 120px;
+    background-color: rgb(238, 196, 118);
+    border-radius: 20px;
+    padding: 30px;
+}
